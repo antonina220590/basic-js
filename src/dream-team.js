@@ -22,7 +22,6 @@ function createDreamTeam(members) {
   newArr = members.filter((member) =>  typeof member === 'string')
    newArr.forEach(element => {
     result.push(element.toUpperCase().trim().charAt(0));
-
    })
 
    return result.sort().join('');

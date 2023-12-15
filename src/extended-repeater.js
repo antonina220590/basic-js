@@ -21,7 +21,7 @@ function repeater(str, options) {
 
    if(typeof options.addition !== "undefined") {
     options.addition = String(options.addition)
-  }
+   }
 
   if(options.separator === undefined) {
     options.separator = '+';
