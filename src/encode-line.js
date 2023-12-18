@@ -22,7 +22,7 @@ function encodeLine(str) {
    count = 1;
    }
  }
- return newStr.replace (/1/g, '');e
+ return newStr.replace (/1/g, '');
 }
 
 module.exports = {
