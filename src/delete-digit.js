@@ -25,7 +25,7 @@ function deleteDigit(n) {
   result.push(test.join(''))
 })
 
- result = result.sort((a,b) => b - a)
+result = result.sort((a,b) => b - a)
 let final = Number(result.slice(0, 1).toString())
  return final;
 }
